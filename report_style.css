@@ -1,0 +1,68 @@
+/* This file contains the formatting for the reporting system */
+
+table {
+	border-width: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	border-collapse: collapse;
+}
+body{
+background-image: url(https://projects.propublica.org/cruises/images/cruisephotos/CARNIVAL_FREEDOM.jpg); 
+}
+tr.odd td {
+	background-color:#FFFFFF;
+}
+
+tr.even td {
+	background-color:#D5DBDE;
+}
+
+th {
+	font-family: Geneva, Arial, helvetica, sans-serif;
+	background-color: #647680;
+	color: #F7F5F6;
+	border: 0 px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+td {
+	font-family: Geneva, Arial, helvetica, sans-serif;
+	border-width: 0px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.outline {
+	border-width: 1px;
+	border-collapse: separate;
+	border-style: solid;
+	border-color: black;
+}
+
+.report-header {
+	text-align: center; 
+	font-size: 18pt;
+}
+
+.report-footer {
+	text-align: center;
+}
+
+.main {
+	text-align: center;
+}
+
+.header {
+	text-align: center; 
+	font-size: 18pt;
+}
+
+.footer {
+	text-align: center;
+}
